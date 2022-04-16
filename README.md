@@ -4,11 +4,11 @@
   <a href="https://academlo.notion.site/Projects-8c35ff80403d4daca1c1885e22781650?p=96e4f5c808514e7b83bb07689b0d2d26" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://twitter.com/thekiller1959, @Jose\_Jhoseb" target="_blank">
+  <a href="https://twitter.com/thekiller1959" target="_blank">
     <img alt="Twitter: @thekiller1959" src="https://img.shields.io/twitter/follow/thekiller1959.svg?style=social" />
   </a>
-  <a href="https://twitter.com/Jose\_Jhoseb" target="_blank">
-    <img alt="Twitter: @Jose\_Jhoseb" src="https://img.shields.io/twitter/follow/Jose\_Jhoseb.svg?style=social" />
+  <a href="https://twitter.com/Jose_Jhoseb" target="_blank">
+    <img alt="Twitter: @Jose_Jhoseb" src="https://img.shields.io/twitter/follow/Jose_Jhoseb.svg?style=social" />
   </a>
 </p>
 
@@ -37,7 +37,7 @@ npm run test
 👤 **Jose Moya (Jhoseb29) & Wilmar Rodriguez (TheKiller1959)**
 
 * Website: https://thekiller1959dev.netlify.app, https://josemoya.netlify.app
-* Twitter: [@thekiller1959, @Jose\_Jhoseb](https://twitter.com/thekiller1959, https://twitter.com/Jose\_Jhoseb)
+* Twitter: [@thekiller1959, @Jose_Jhoseb](https://twitter.com/thekiller1959, https://twitter.com/Jose_Jhoseb)
 * Github: [@jhoseb29, @thekiller1959](https://github.com/jhoseb29, https://github.com/thekiller1959)
 * LinkedIn: [@wilmar-rodriguez-a72635231, @jhoseb29](https://linkedin.com/in/wilmar-rodriguez-a72635231, https://linkedin.com/in/jhoseb29)
 
