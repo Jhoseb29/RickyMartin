@@ -24,14 +24,16 @@ const ResidentContainer = ({ url }) => {
 
 
   return (
-    <>
+    <div className="resident-container">
       <h3>Residents</h3>
-      <div>
+      <div className="each-card">
         {currentResidentsShowed.map((url) => (
-          <ResidentInfo key={url.substring(42)} url={url} />
+          <div>
+            <ResidentInfo key={url.substring(42)} url={url} />
+          </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

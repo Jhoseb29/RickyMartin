@@ -1,18 +1,18 @@
 const LocationInfo = ({ name, type, dimension, population }) => {
     return (
-      <div>
+      <div className="location">
         <h2 >{name}</h2>
         <div>
           <div>
-            <b>type: </b>
+            <b>Type: </b>
             {type}
           </div>
           <div>
-            <b>dimension: </b>
+            <b>Dimension: </b>
             {dimension}
           </div>
           <div>
-            <b>population: </b>
+            <b>Population: </b>
             {population}
           </div>
         </div>

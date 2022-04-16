@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Results from '../components/Results'
 import ResidentContainer from "../components/ResindentContainer";
 import LocationContainer from "../components/LocationContainer";
+import { FcSearch } from 'react-icons/fc';
 
 const query = Math.floor(Math.random() * 126) + 1;
 
@@ -22,13 +23,16 @@ const SearchBox = () => {
 
     // Input y en Results voy a hacer el Boton 
     // para que se pinte la informacion de la ubicacion 
-    <>
-      <input
-        type="text"
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-        placeholder="Location"
-      />
+    <div className="search-box">
+      <div className="searchbar">
+        <input
+          type="text"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          src={<FcSearch/>}
+          placeholder="🔎 Search by location"
+        />
+      </div>
       {search !== "" && (
         <Results
           url={`https://rickandmortyapi.com/api/location/?name=${search}`}
@@ -40,7 +44,7 @@ const SearchBox = () => {
 
       <LocationContainer url={url} />
       <ResidentContainer url={url} />
-    </>
+    </div>
   );
 };
 
